@@ -6,5 +6,5 @@
 
 * O CSS é o "casamento" perfeito com o HTML. Juntos o HTML CSS formam a base visual de toda web. O chamado front-end. 
 
-### Ferramenta utiliza para edição do código:
+### Ferramenta utilizada para edição do código:
 * Visual Studio Code

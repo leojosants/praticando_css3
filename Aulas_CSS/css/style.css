@@ -1,8 +1,19 @@
 /*  */
-h1, p { 
-    color: red;
-    text-align: center;
+h1 {
+    color: #a8372f;
 }
+
+p {
+    color: rgb(13, 108, 53);
+}
+
+
+/* 
+    h1, p { 
+        color: red;
+        text-align: center;
+}
+*/
 
 /* 
     * {

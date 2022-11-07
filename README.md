@@ -1,6 +1,6 @@
 # Curso CSS Completo
  
-## Canal <a href="https://www.youtube.com/watch?v=HtVRRHoASes&list=PL2Fdisxwzt_f5C7Mv0kg1EAHhy2VJLf1c&index=1">Programação Web</a>
+## Canal <a href="https://www.youtube.com/watch?v=HtVRRHoASes&list=PL2Fdisxwzt_f5C7Mv0kg1EAHhy2VJLf1c&index=1">Programação Web</a> Prof. Dimitri
 
 * Neste curso de CSS completo vamos aprender a estilizar nossos sites com as propriedades que definem o estilo e parte visual de qualidade. 
 

@@ -32,8 +32,25 @@ h1 {
 
 /*  */
 p {
-    color: red;
-    margin-left: 20px;
+    color: black;
+    text-align: justify;
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    text-indent: 60px;
+    /* letter-spacing: -5px; */
+    /* letter-spacing: 5px; */
+    /* line-height: 0.8; */
+    word-spacing: 15px;
+    
+    /* 
+        Inverte as letras
+            direction: rtl;
+            unicode-bidi: bidi-override; 
+    */
+
+    /* margin-left: 20px; */
     /* margin-bottom: 40px; */
 }
 

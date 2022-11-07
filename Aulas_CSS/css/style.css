@@ -67,6 +67,15 @@ p {
     background: blue;
 }
 
+.teste {
+    max-width: 800px;
+    /* width: 300px; */
+    
+    height: 150px;
+    background: cyan;
+}
+
+
 /* 
     h1, p { 
         color: red;

@@ -1,16 +1,32 @@
 /*  */
-body {
-    background: red;
+h1, p { 
+    color: red;
+    text-align: center;
 }
 
-/*  */
-h1 {
-    color: blue;
-    font-size: 88px;
-}
+/* 
+    * {
+        padding: 20px;
+    }
 
-/*  */
-h2 {
-    color: darkmagenta;
-    font-size: 100px;
-}
+    body {
+        background: rgb(239, 239, 239);
+    }
+
+    .vermelho {
+        color: red;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .fonte-30 {
+        font-size: 30px;
+    }
+
+    #teste {
+        color: blue;
+        background: yellow;
+    }
+*/

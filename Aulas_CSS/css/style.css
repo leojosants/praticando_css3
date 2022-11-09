@@ -1,192 +1,34 @@
 /*  */
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@400;600;700&family=PT+Serif&family=Slabo+27px&display=swap');
-
-/*  */
-body {
-    background-color: white;
+.border {
+    border: 1px solid red;
 }
 
-/*  */
-h1 {
-    color: white;
-    border: 1px solid black;
-    border-radius: 30px;
-    text-align: center;
-    background: black;
-    font-family: 'Slabo 27px', serif;
-    
-    /* 
-        padding-top: 50px;
-        padding-bottom: 20px;
-        padding-left: 10px;
-        padding-right: 70px; 
-    Simplificando */
-    /* padding: 50px 70px 20px 10px; */
-    /* padding: 50px; */
-        
-    /* 
-        margin-top: 30px;
-        margin-bottom: 150px;
-        margin-left: 20px;
-        margin-right: 70px; 
-        
-    Simplificando */
-    /* margin: 30px 70px 150px 20px; */
+li{
+    display: inline;
 }
 
-/*  */
-p {
-    font-family: 'Courgette', cursive;
-    font-style: italic;
-    font-weight: bold;
-
-    color: black;
-    text-align: justify;
-    /* text-decoration: underline; */
-    /* text-transform: uppercase; */
-    /* text-transform: capitalize; */
-    /* text-transform: lowercase; */
-    text-indent: 60px;
-    /* letter-spacing: -5px; */
-    /* letter-spacing: 5px; */
-    /* line-height: 0.8; */
-    /* word-spacing: 15px; */
-    
-    /* 
-        Inverte as letras
-            direction: rtl;
-            unicode-bidi: bidi-override; 
-    */
-
-    /* margin-left: 20px; */
-    /* margin-bottom: 40px; */
+.blue {
+    background: blue;
 }
 
-.exemplo-back {
-    /* 
-        height: 300px;
-        background-color: gray;
-        background-image: url(../img/fundo.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    
-    Simplificando */
-    height: 100px;
-    background: gray url(../img/fundo.jpg) no-repeat center;
-    background-size: cover;
-
-    margin-bottom: 100px;
+.red {
+    background: red;
 }
 
-.botao {
-    margin-left: 33%;
+.green {
     background: green;
-    color: white;
-    padding: 30px 50px 30px 50px;
-    border-radius: 5px;
-    text-decoration: none;
 }
 
-.botao:hover {
-    background: blue;
-}
-
-.teste {
-    max-width: 800px;
-    /* width: 300px; */
-    
+div {
+    display: inline-block;
+    width: 33%;
     height: 150px;
-    background: cyan;
 }
 
-a.botao1 {
-    background: darkgreen;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    border: 4px solid greenyellow;
-    border-radius: 8px;
+a.button {
+    display: inline-block;
+    margin-top: 100px;
+    width: 50%;
+    height: 50px;
+    text-align: center;
 }
-a.botao1:hover {
-    background: rgb(110, 202, 110);
-    padding: 12px;
-    border: 4px solid rgb(38, 56, 12);
-}
-
-/*  */
-a.botao2 {
-    text-decoration: none;
-    padding: 10px;
-    border: 11px double blue;
-    color: blue;
-}
-a.botao2:hover {
-    text-decoration: underline;
-    padding: 8px;
-    background: blue;
-    color: white;
-}
-
-/*  */
-a.botao3 {
-    color: black;
-    text-decoration: none;
-}
-a.botao3:hover {
-    border-bottom: 5px solid red;
-}
-
-/*  */
-a.botao4 {
-    text-decoration: none;
-    color: blue;
-    font-size: 18px;
-}
-a.botao4:hover {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-/*  */
-a.botao5 {
-    cursor: cell;
-}
-a.botao:hover5 {
-    
-}
-
-
-/* 
-    h1, p { 
-        color: red;
-        text-align: center;
-}
-*/
-
-/* 
-    * {
-        padding: 20px;
-    }
-
-    body {
-        background: rgb(239, 239, 239);
-    }
-
-    .vermelho {
-        color: red;
-    }
-
-    .center {
-        text-align: center;
-    }
-
-    .fonte-30 {
-        font-size: 30px;
-    }
-
-    #teste {
-        color: blue;
-        background: yellow;
-    }
-*/

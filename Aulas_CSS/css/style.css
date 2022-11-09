@@ -1,40 +1,44 @@
-.container {
-    border: 1px solid black;
-    overflow: auto;
+.img1 {
+    opacity: 1;  /*0.1 a 1*/ 
+}
+.img1:hover {
+    opacity: 0.9;  /*0.1 a 1*/ 
 }
 
-.container img {
-    float: left;
-     /* float: right; */
-    margin-right: 20px;
-    margin-bottom: 10px;
+.img2 {
+    opacity: 1;  /*0.1 a 1*/ 
+}
+.img2:hover {
+    opacity: 0.3  /*0.1 a 1*/ 
 }
 
-ul {
-    background: black;
-    padding: 20px;
+.img3 {
+    opacity: 1;  /*0.1 a 1*/ 
+}
+.img3:hover {
+    opacity: 0.6;  /*0.1 a 1*/ 
 }
 
-li {
-     display: inline-block;
-}
-
-li a {
-    color: white;
+a.botao {
+    padding: 15px;
+    background: green;
     text-decoration: none;
-    padding: 20px;
 }
 
-li a:hover {
- background: #ccc;   
- color: black;
-}
-
-.login {
-    float: right;
-}
-
-.login a:hover {
-    background: orangered;
+a.botao:hover {
+    opacity: 0.9;
     color: white;
+}
+
+.transparente {
+    background: blue;
+    color: white;
+    padding: 40px;
+    opacity: 0.3;
+}
+.transparente:hover {
+    background: blue;
+    color: white;
+    padding: 40px;
+    opacity: 1;
 }

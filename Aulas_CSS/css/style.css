@@ -1,12 +1,32 @@
-/*  */
-.border {
-    border: 1px solid red;
+.container {
+    display: inline-block;
+    background: blue;
+    width: 100%;
+    height: 400px;
 }
 
-.ex1 {
-    width: 800px;;
+.div1 {
+    position: relative;
+    z-index: 4;
+    left: 60px;
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+    background: yellow;
 }
 
-.ex2 {
-    max-width: 800px;;
+.div2 {
+    position: relative;
+    z-index: 5;
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+     background: white;
+}
+
+.div3 {
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+    background: red;
 }

@@ -1,45 +1,33 @@
 .container {
     position: relative;
     display: inline-block;
-    background: blue;
     width: 100%;
     height: 400px;
+    z-index: 1;
+    border: 2px dashed red;
 }
 
-.div1 {
-    width: 30%;
-    height: 100px;
-    display: inline-block;
-    background: yellow;
-    z-index: 4;
+img {
+    width: 100%;
+    opacity: 0.5;
+    border: 2px solid green;
 }
 
-.div2 {
-    position: sticky;
-    top: 0;
-    z-index: 5;
-    width: 30%;
-    height: 100px;
-    display: inline-block;
-     background: purple;
-}
-
-.div3 {
-    width: 30%;
-    height: 100px;
-    display: inline-block;
-    background: red;
+.centro {
     position: absolute;
-    top: 150px;
-    right: 50%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    z-index: 999;
 }
-
-.whats {
-    background: green;
-    color: white;
-    width: 80px;
-    height: 80px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
+    
+    .whats {
+        background: green;
+        color: white;
+        width: 80px;
+        height: 80px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+    }

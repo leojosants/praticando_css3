@@ -15,11 +15,13 @@
 }
 
 .div2 {
+    position: sticky;
+    top: 0;
     z-index: 5;
     width: 30%;
     height: 100px;
     display: inline-block;
-     background: white;
+     background: purple;
 }
 
 .div3 {

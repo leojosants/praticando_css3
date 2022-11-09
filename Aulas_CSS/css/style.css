@@ -3,32 +3,10 @@
     border: 1px solid red;
 }
 
-li{
-    display: inline;
+.ex1 {
+    width: 800px;;
 }
 
-.blue {
-    background: blue;
-}
-
-.red {
-    background: red;
-}
-
-.green {
-    background: green;
-}
-
-div {
-    display: inline-block;
-    width: 33%;
-    height: 150px;
-}
-
-a.button {
-    display: inline-block;
-    margin-top: 100px;
-    width: 50%;
-    height: 50px;
-    text-align: center;
+.ex2 {
+    max-width: 800px;;
 }

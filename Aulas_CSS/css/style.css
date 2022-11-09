@@ -1,44 +1,51 @@
-.img1 {
-    opacity: 1;  /*0.1 a 1*/ 
-}
-.img1:hover {
-    opacity: 0.9;  /*0.1 a 1*/ 
-}
-
-.img2 {
-    opacity: 1;  /*0.1 a 1*/ 
-}
-.img2:hover {
-    opacity: 0.3  /*0.1 a 1*/ 
+ul {
+    background: black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
-.img3 {
-    opacity: 1;  /*0.1 a 1*/ 
-}
-.img3:hover {
-    opacity: 0.6;  /*0.1 a 1*/ 
+li {
+    float: left;
+    
 }
 
-a.botao {
-    padding: 15px;
-    background: green;
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
     text-decoration: none;
+    text-align: center;
 }
 
-a.botao:hover {
-    opacity: 0.9;
+li a:hover, .dropdown:hover .dropbtn {
+    background: red;
+}
+
+l1.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    background: white;
+    width: 150px;
+    display: none;
+}
+
+.dropdown-content a {
+    color: black;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid rgb(238, 229, 229);
+}
+
+.dropdown-content a:hover {
     color: white;
 }
 
-.transparente {
-    background: blue;
-    color: white;
-    padding: 40px;
-    opacity: 0.3;
-}
-.transparente:hover {
-    background: blue;
-    color: white;
-    padding: 40px;
-    opacity: 1;
+.dropdown:hover .dropdown-content {
+    display: block;
 }

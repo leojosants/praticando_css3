@@ -1,11 +1,11 @@
-#myId {
-    color: red;
+#gradient {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(45deg ,red, blue, green, yellow, pink);
 }
 
-.myClass {
-    columns: blue;
-}
-
-h1 {
-     color: green !important;
+#radial {
+    width: 100%;
+    height: 300px;
+    background-image: radial-gradient(red 10%, blue 6%, green 20%);
 }

@@ -1,15 +1,11 @@
-/* #title {
-    background: blue;
-} */
-
-.red {
-     background: red;
-    }
-
-.red h1 {
-    background: orangered;
+#myId {
+    color: red;
 }
-    
+
+.myClass {
+    columns: blue;
+}
+
 h1 {
-    background: yellow;
+     color: green !important;
 }

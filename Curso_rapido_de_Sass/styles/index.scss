@@ -1,0 +1,9 @@
+// 
+@import './imports/variaveis';
+@import './imports/header';
+
+
+.contato {
+    @include flexCenter(column, yellow);
+    @extend header;
+}

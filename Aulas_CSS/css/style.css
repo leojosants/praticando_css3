@@ -13,11 +13,23 @@ h1 {
 }
 
 .box {
-    width: 50%;
-    height: 300px;
     text-align: center;
     background: white;
+    width: 40%;
+    height: auto;
     
     /* EFEITO PADRÃO PARA CARD */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reduced {
+    white-space: nowrap;
+    overflow: hidden;
+    /* border: 1px solid black; */
+    text-overflow: ellipsis;
+    padding-bottom: 30px;
+}
+
+.box:hover .reduced {
+    white-space: normal;
 }
